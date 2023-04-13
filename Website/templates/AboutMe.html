@@ -1,0 +1,142 @@
+{% extends "Base.html" %}
+{% block title %}About Me{% endblock %}
+
+{% block Content %}
+<body>
+    <div class="p-3 mb-2 bg-info-subtle text-emphasis-info">
+        <h1 align="center">About Me</h1>
+
+        <div>
+            <p>
+                <strong>This is a list of my favorite Movie, Songs, and Shows</strong>
+            </p>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Movie List
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>
+                            <ul>
+                                <li>Starship Troopers "Just the first one I honestly wouldn't recommend the other three</li>
+                            </ul>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Music List
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accodion-body">
+                        <strong>
+                            <ul>
+                                <li>"Give and Take" by Poor Mans Poison</li>
+                                <li>"Strong Than Whiskey" by Poor Mans Poison</li>
+                                <li>"Sleeping in the Cold Below (From Warframe)" by Keith Power, Alan Doyle, Damhnait Doyle</li>
+                            </ul>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        TV Show List
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accodion-body">
+                        <strong>
+                            <ul>
+                                <li>Stranger Things (On Netflix)</li>
+                                <li>Black Mirror(On Netflix)</li>
+                                <li>Band of Brothers(On HBO Max)</li>
+                            </ul>
+
+                        </strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p>
+            <h5 align="center">
+                <strong>
+                    Hobbies/Crippling Addictions:
+                </strong>
+            </h5>
+
+        <p>
+            <h5 align="center">
+                Collecting Trading Cards
+            </h5>
+
+        </p>
+        <p>
+            <h5 align="center">
+                Just Started Collecting Comics
+            </h5>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-50">
+                        <img class="mx-auto d-block" src=static/Crippling_Addiction2.jpg height=350>
+                    </div>
+                </div>
+            </div>
+        </p>
+
+        <p>
+            <h5 align="center">
+                Workout Whenever I Get a Chance
+            </h5>
+        </p>
+        <p>
+            <h5 align="center">
+                If I have free time I Play Games
+            </h5>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-50">
+                        <img class="mx-auto d-block" src=static/Destiny.jpg height=450>
+                    </div>
+                </div>
+            </div>
+        </p>
+        <p>
+            <h5 align="center">
+                Also In my free time I Try to Get Some Reading In
+            </h5>
+        </p>
+        </p>
+        <p>
+            <h3 align="center">In my opinion one of the best content creators on YouTube: <a href="https://www.youtube.com/@Mr_Fruit">Mr. Fruit</a></h3>
+        </p>
+
+        <p>
+            <h5 align="center">
+                Pet Rat
+            </h5>
+        </p>
+        <div class="container">
+            <div class="row">
+                <div class="col-50">
+                    <img class="mx-auto d-block" src=static/Rat.jpg height=325>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+{% endblock %}
